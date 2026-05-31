@@ -23,7 +23,11 @@ import {
   Sparkles,
   RefreshCw,
   Clock3,
-  HelpCircle
+  HelpCircle,
+  Zap,
+  Wind,
+  Activity,
+  Compass
 } from 'lucide-react';
 import { UNIT_CATEGORIES, convertUnits, getFormulaString, formatNumber, POPULAR_PRESETS, PresetPair } from './data';
 import { FavoriteConversion } from './types';
@@ -39,6 +43,10 @@ const getCategoryIcon = (iconName: string, className?: string) => {
     case 'Clock': return <Clock className={className} />;
     case 'Gauge': return <Gauge className={className} />;
     case 'Cpu': return <Cpu className={className} />;
+    case 'Zap': return <Zap className={className} />;
+    case 'Wind': return <Wind className={className} />;
+    case 'Activity': return <Activity className={className} />;
+    case 'Compass': return <Compass className={className} />;
     default: return <Ruler className={className} />;
   }
 };
