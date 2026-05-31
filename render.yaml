@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: precision-unit-converter
+    env: static
+    buildCommand: npm install && npm run build
+    publishPath: dist
