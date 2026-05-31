@@ -1,0 +1,6 @@
+{
+  "name": "Unit Converter",
+  "description": "An intuitive, comprehensive, and sleek offline-first unit converter designed for real-time conversions across physical and digital metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
